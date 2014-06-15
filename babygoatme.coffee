@@ -19,4 +19,4 @@ module.exports = (robot) ->
         babygoats = data.babygoats
         howManyGoats = babygoats.length
         whichGoat = Math.floor(Math.random() * (howManyGoats))
-        msg.send babygoats[whichGoat]
+        msg.send babygoats[whichGoat].image
